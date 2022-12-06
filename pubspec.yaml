@@ -101,7 +101,6 @@ flutter:
       - family: Kanit
         fonts:
           - asset: assets/fonts/Kanit-Regular.ttf
-          - asset: assets/fonts/Kanit-Bold.ttf
           - asset: assets/fonts/Kanit-Italic.ttf
             style: italic 
       - family: Roboto

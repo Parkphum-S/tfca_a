@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:tfca_a/views/addTable_ui.dart';
+import 'package:tfca_a/views/checkMange_ui.dart';
 import 'package:tfca_a/views/checkA_ui.dart';
 
 class CheckPlanAUI extends StatefulWidget {
@@ -658,7 +658,7 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => AddTableUI(),
+                          builder: (context) => CheckMangeUI(),
                           fullscreenDialog: true));
                 },
                 child: Text(

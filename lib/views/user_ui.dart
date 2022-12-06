@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class AddTableUI extends StatefulWidget {
-  const AddTableUI({Key? key}) : super(key: key);
+class UserUI extends StatefulWidget {
+  const UserUI({Key? key}) : super(key: key);
 
   @override
-  State<AddTableUI> createState() => _AddTableUIState();
+  State<UserUI> createState() => _UserUIState();
 }
 
-class _AddTableUIState extends State<AddTableUI> {
+class _UserUIState extends State<UserUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold();

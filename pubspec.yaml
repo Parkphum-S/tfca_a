@@ -29,6 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
   
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,10 +39,12 @@ dependencies:
   font_awesome_flutter: ^10.1.0
   simple_animations: ^4.0.1
   ai_barcode_scanner: ^0.0.3
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -101,6 +104,7 @@ flutter:
       - family: Kanit
         fonts:
           - asset: assets/fonts/Kanit-Regular.ttf
+          - asset: assets/fonts/Kanit-Bold.ttf
           - asset: assets/fonts/Kanit-Italic.ttf
             style: italic 
       - family: Roboto

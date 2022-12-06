@@ -35,7 +35,7 @@ class _HomeUIState extends State<HomeUI> {
                         ],
                       ),
                       SizedBox(
-                        width: 30.0,
+                        width: 20.0,
                       ),
                       Column(
                         children: [
@@ -44,16 +44,7 @@ class _HomeUIState extends State<HomeUI> {
                               Column(
                                 children: [
                                   Text(
-                                    "นาย ปริญญา ไชยธงรัตน์",
-                                    style: TextStyle(
-                                      color: Color.fromARGB(255, 28, 45, 64),
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                      fontFamily: 'Kanit',
-                                    ),
-                                  ),
-                                  Text(
-                                    "6319C10022",
+                                    "อ.รักการสอน มากสุด",
                                     style: TextStyle(
                                       color: Color.fromARGB(255, 28, 45, 64),
                                       fontSize: 20,
@@ -113,7 +104,7 @@ class _HomeUIState extends State<HomeUI> {
               ),
             ),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             ElevatedButton(
               onPressed: () {
@@ -134,7 +125,7 @@ class _HomeUIState extends State<HomeUI> {
                     width: 10.0,
                   ),
                   Text(
-                    'ตารางเรียน',
+                    'ตารางสอน',
                     style: TextStyle(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
@@ -153,7 +144,207 @@ class _HomeUIState extends State<HomeUI> {
               ),
             ),
             SizedBox(
-              height: 370.0,
+              height: 20.0,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CheckPlanAUI(),
+                        fullscreenDialog: true));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/faculty.png',
+                    width: 40,
+                    height: 40,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    'คณะ',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 28, 45, 64),
+                      fontFamily: 'Robot',
+                    ),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(
+                  MediaQuery.of(context).size.width * 0.7,
+                  50,
+                ),
+                primary: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CheckPlanAUI(),
+                        fullscreenDialog: true));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/group.png',
+                    width: 40,
+                    height: 40,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    'สาขา',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 28, 45, 64),
+                      fontFamily: 'Robot',
+                    ),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(
+                  MediaQuery.of(context).size.width * 0.7,
+                  50,
+                ),
+                primary: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CheckPlanAUI(),
+                        fullscreenDialog: true));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/subject.png',
+                    width: 40,
+                    height: 40,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    'วิชา',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 28, 45, 64),
+                      fontFamily: 'Robot',
+                    ),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(
+                  MediaQuery.of(context).size.width * 0.7,
+                  50,
+                ),
+                primary: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CheckPlanAUI(),
+                        fullscreenDialog: true));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/students.png',
+                    width: 40,
+                    height: 40,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    'นักเรียน',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 28, 45, 64),
+                      fontFamily: 'Robot',
+                    ),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(
+                  MediaQuery.of(context).size.width * 0.7,
+                  50,
+                ),
+                primary: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CheckPlanAUI(),
+                        fullscreenDialog: true));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/room.png',
+                    width: 40,
+                    height: 40,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    'ห้องเรียน',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 28, 45, 64),
+                      fontFamily: 'Robot',
+                    ),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(
+                  MediaQuery.of(context).size.width * 0.7,
+                  50,
+                ),
+                primary: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+            SizedBox(
+              height: 40.0,
             ),
             Padding(
               padding: EdgeInsets.only(left: 35.0, right: 35.0),

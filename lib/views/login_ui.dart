@@ -48,7 +48,7 @@ class _LoginUIState extends State<LoginUI> {
                           ),
                         ),
                         Text(
-                          'ระบบเช็คชื่อ เข้า/ออก ชั้นเรียน ',
+                          'ระบบจัดการสำหรับผู้ดูแล',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 import 'package:tfca_a/views/checkPlanA_ui.dart';
 import 'package:tfca_a/views/faculty_ui.dart';
@@ -81,13 +83,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/img_image1.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'สแกน QR CODE',
@@ -121,13 +118,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/events.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'ตารางสอน',
@@ -161,13 +153,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/faculty.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'คณะ',
@@ -201,13 +188,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/group.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'สาขา',
@@ -241,13 +223,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/subject.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิชา',
@@ -281,13 +258,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/students.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'นักเรียน',
@@ -321,13 +293,8 @@ class _HomeUIState extends State<HomeUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/room.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'ห้องเรียน',

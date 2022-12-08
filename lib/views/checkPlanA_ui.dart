@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
+
 import 'package:tfca_a/views/checkMange_ui.dart';
 import 'package:tfca_a/views/checkA_ui.dart';
 
@@ -63,13 +62,8 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Image.asset(
-                                'assets/images/timetable.png',
-                                width: 35,
-                                height: 35,
-                              ),
                               SizedBox(
-                                width: 50.0,
+                                width: 20.0,
                               ),
                               Column(
                                 children: [
@@ -184,13 +178,8 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Image.asset(
-                                'assets/images/timetable.png',
-                                width: 35,
-                                height: 35,
-                              ),
                               SizedBox(
-                                width: 50.0,
+                                width: 20.0,
                               ),
                               Column(
                                 children: [
@@ -305,13 +294,8 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Image.asset(
-                                'assets/images/timetable.png',
-                                width: 35,
-                                height: 35,
-                              ),
                               SizedBox(
-                                width: 50.0,
+                                width: 20.0,
                               ),
                               Column(
                                 children: [
@@ -426,13 +410,8 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Image.asset(
-                                'assets/images/timetable.png',
-                                width: 35,
-                                height: 35,
-                              ),
                               SizedBox(
-                                width: 50.0,
+                                width: 20.0,
                               ),
                               Column(
                                 children: [
@@ -547,13 +526,8 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Image.asset(
-                                'assets/images/timetable.png',
-                                width: 35,
-                                height: 35,
-                              ),
                               SizedBox(
-                                width: 50.0,
+                                width: 20.0,
                               ),
                               Column(
                                 children: [
@@ -671,7 +645,7 @@ class _CheckPlanAUIState extends State<CheckPlanAUI> {
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 78, 121, 240),
+                  primary: Color.fromARGB(255, 18, 75, 170),
                   minimumSize: const Size.fromHeight(50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),

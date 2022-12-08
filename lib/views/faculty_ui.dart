@@ -56,13 +56,8 @@ class _FacultyUIState extends State<FacultyUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineering.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมศาสตร์ ',
@@ -96,13 +91,8 @@ class _FacultyUIState extends State<FacultyUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/business_administration.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'บริหารธุระกิจ',
@@ -136,13 +126,8 @@ class _FacultyUIState extends State<FacultyUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/arts_sciences.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'ศิลปศาสตร์และวิทยาศาสตร์ ',
@@ -176,13 +161,8 @@ class _FacultyUIState extends State<FacultyUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/law1.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'นิติศาสตร์ ',
@@ -226,7 +206,7 @@ class _FacultyUIState extends State<FacultyUI> {
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 78, 121, 240),
+                  primary: Color.fromARGB(255, 18, 75, 170),
                   minimumSize: const Size.fromHeight(50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),

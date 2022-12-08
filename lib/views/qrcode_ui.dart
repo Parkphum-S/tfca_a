@@ -71,7 +71,7 @@ class _QrcodeUIState extends State<QrcodeUI> {
                 );
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 13, 95, 170),
+                primary: Color.fromARGB(255, 18, 75, 170),
                 minimumSize: const Size.fromHeight(50),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),

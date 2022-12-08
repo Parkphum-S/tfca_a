@@ -56,13 +56,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/iot.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมคอมพิวเตอร์ ',
@@ -96,13 +91,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineer_safety.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมความปลอดภัย ',
@@ -136,13 +126,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineering_mechanical.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมเครื่องกล ',
@@ -176,13 +161,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/electrical.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมไฟฟ้า ',
@@ -216,13 +196,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineering_environmental.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมสิ่งแวดล้อม ',
@@ -256,13 +231,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineer_civil.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมโยธา ',
@@ -296,13 +266,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/engineer_industry.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมอุตสาหการ ',
@@ -336,13 +301,8 @@ class _GroupUIState extends State<GroupUI> {
               },
               child: Row(
                 children: [
-                  Image.asset(
-                    'assets/images/iot.png',
-                    width: 40,
-                    height: 40,
-                  ),
                   SizedBox(
-                    width: 10.0,
+                    width: 20.0,
                   ),
                   Text(
                     'วิศวกรรมคอมพิวเตอร์ ',
@@ -386,7 +346,7 @@ class _GroupUIState extends State<GroupUI> {
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 78, 121, 240),
+                  primary: Color.fromARGB(255, 18, 75, 170),
                   minimumSize: const Size.fromHeight(50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
